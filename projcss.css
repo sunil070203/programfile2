@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: 'Creepster', cursive, sans-serif;
+    background-color: #0d0d0d;
+    color: #e6e6e6;
+  }
+  
+  .graveyard {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(#000000, #1a1a1a);
+    min-height: 80vh;
+    background-image: url('./evillllll.avif');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: crimson;
+    text-shadow: 2px 2px 5px black;
+  }
+  
+  .gate {
+    font-size: 1.5em;
+    margin: 20px;
+    color: #bbb;
+  }
+  
+  form {
+    margin-top: 30px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1em;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 1em;
+    background: crimson;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #evil {
+    display: none;
+    margin-top: 40px;
+    animation: fadeIn 4s ease-in-out forwards;
+  }
+  
+  #evil img {
+    width: 100px;
+    filter: brightness(0.7);
+    animation: shake 1s infinite alternate;
+  }
+  
+  #judgement {
+    margin-top: 20px;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(5px); }
+  }
+  
+
+   /* @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+  margin: 0;
+  background: black;
+  font-family: 'Creepster', cursive;
+  color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  padding-top: 10vh;
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-size: 4em;
+  color: crimson;
+  text-shadow: 0 0 15px red;
+}
+
+form input {
+  padding: 10px;
+  width: 300px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background: darkred;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#evil {
+  display: none;
+  margin-top: 40px;
+  animation: shake 0.5s infinite alternate;
+}
+
+#evil img {
+  width: 200px;
+  animation: rise 2s ease-out forwards;
+}
+
+#judgement {
+  margin-top: 20px;
+  font-size: 1.5em;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid red;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.fog-layer {
+  position: absolute;
+  background: url('./evillllll.avif') repeat-x;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  animation: fogMove 60s linear infinite;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+@keyframes fogMove {
+  0% { background-position: 0 0; }
+  100% { background-position: 10000px 0; }
+}
+
+@keyframes rise {
+  from { transform: translateY(200px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes shake {
+  0% { transform: translateX(-2px); }
+  100% { transform: translateX(2px); }
+} */
